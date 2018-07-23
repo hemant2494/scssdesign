@@ -1,0 +1,118 @@
+@import '~scss/vars';
+
+
+.navbar {
+    overflow:$overflow;
+    background-color:$background;
+    position:$position;
+    top:$top;
+    width:$width;
+  }
+  
+  .navbar a {
+    float:$float;
+    display:$display;
+    color:$color;
+    text-align:$text-align;
+    padding:$pad;
+    text-decoration: $decoration;
+    font-size:$size;
+  }
+  
+  .navbar a:hover {
+    background:$color;
+    color:$color-hover;
+  }
+
+
+
+  .vertical-menu {
+    width:$width-nav;
+    height:$height-nav;
+    margin-top: 48px;
+}
+
+.vertical-menu a {
+    background-color:$color;
+    color:$color-font;
+    display:$display;
+    padding:$padding;
+    text-decoration:$decoration;
+}
+
+.vertical-menu a:hover {
+    background-color:$color-hover;
+}
+
+.vertical-menu a.active {
+    background-color:$background-nav;
+    color:$color;
+}
+
+// .search-container  {
+//     float: right;
+//     padding: 6px 10px;
+//     margin-top: 8px;
+//     margin-right: 16px;
+//     background: #ddd;
+//     font-size: 17px;
+//     border: none;
+//     cursor: pointer;
+//   }
+
+  .search-container{
+      float: right
+  }
+
+
+  footer {
+    background-color: $color-hover;
+    padding:$padding-footer;
+    text-align: $text-align;
+    color:$color;
+    margin-top: 80px;
+}
+
+
+.contact_form{
+
+    margin-left: 400px;
+    margin-right: 200px;
+}
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+input[type=submit] {
+    background-color: #4CAF50;
+    color:$color;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+.form-container {
+    border-radius: 5px;
+    background-color:$color;
+    padding: 20px;
+}
+
+
+.heading{
+    margin-left: 900px;
+    display:$display;
+    margin-top: -79px;
+}
